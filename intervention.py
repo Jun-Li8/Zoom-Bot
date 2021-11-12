@@ -47,8 +47,8 @@ audio_source = AudioSource(q, True, True)
 ###############################################
 
 # initialize speech to text service
-authenticator = IAMAuthenticator('437LbRpZ4UVpoQ1BqsTmGKgOW4KIEn6lcGCzCA5jXkUH')
-authenticator1 = IAMAuthenticator('Rwqm8kJI4m23ErDDUETNmrfLIQYQk1mEZQdk3bJ2yGgP')
+authenticator = IAMAuthenticator('insert api key')
+authenticator1 = IAMAuthenticator('insert api key')
 speech_to_text = SpeechToTextV1(authenticator=authenticator)
 ta = ToneAnalyzerV3(version='2017-09-21', authenticator=authenticator1)
 ta.set_service_url('https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/da1b4bd0-109f-496a-a543-6b734fcca3b7')
@@ -77,7 +77,7 @@ def get_data(text):
 headers = {
     # Request headers
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': '627c2268f99740fd98c9007b59ad45e2'
+    'Ocp-Apim-Subscription-Key': 'insert key here'
 }
 params = urllib.parse.urlencode({
 })
