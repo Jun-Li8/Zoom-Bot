@@ -1,5 +1,5 @@
 #Authenticate
-apikey = 'Rwqm8kJI4m23ErDDUETNmrfLIQYQk1mEZQdk3bJ2yGgP'
+apikey = 'insert key here'
 url = 'https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/da1b4bd0-109f-496a-a543-6b734fcca3b7'
 
 from ibm_watson import ToneAnalyzerV3
