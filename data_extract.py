@@ -9,7 +9,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 import json
 import time
-apikey = 'Rwqm8kJI4m23ErDDUETNmrfLIQYQk1mEZQdk3bJ2yGgP'
+apikey = 'insert key here'
 url = 'https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/da1b4bd0-109f-496a-a543-6b734fcca3b7'
 
 authenticator = IAMAuthenticator(apikey)
@@ -19,7 +19,7 @@ ta.set_service_url(url)
 headers = {
     # Request headers
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': '627c2268f99740fd98c9007b59ad45e2'
+    'Ocp-Apim-Subscription-Key': 'insert key here'
 }
 params = urllib.parse.urlencode({
 })
